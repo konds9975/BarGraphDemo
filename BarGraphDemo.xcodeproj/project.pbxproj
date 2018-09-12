@@ -15,6 +15,7 @@
 		42E6406D2147C02E00231599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E6406B2147C02E00231599 /* LaunchScreen.storyboard */; };
 		42E640782147C02E00231599 /* BarGraphDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E640772147C02E00231599 /* BarGraphDemoTests.swift */; };
 		42E640832147C02E00231599 /* BarGraphDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E640822147C02E00231599 /* BarGraphDemoUITests.swift */; };
+		42EC83232148F7000049887A /* SimpleBarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EC83222148F7000049887A /* SimpleBarGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		42E6407E2147C02E00231599 /* BarGraphDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarGraphDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E640822147C02E00231599 /* BarGraphDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphDemoUITests.swift; sourceTree = "<group>"; };
 		42E640842147C02E00231599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EC83222148F7000049887A /* SimpleBarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBarGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				42E6405F2147C02C00231599 /* AppDelegate.swift */,
 				42E640612147C02C00231599 /* ViewController.swift */,
+				42EC83222148F7000049887A /* SimpleBarGraph.swift */,
 				42E640632147C02C00231599 /* Main.storyboard */,
 				42E640692147C02E00231599 /* Assets.xcassets */,
 				42E6406B2147C02E00231599 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42EC83232148F7000049887A /* SimpleBarGraph.swift in Sources */,
 				42E640622147C02C00231599 /* ViewController.swift in Sources */,
 				42E640602147C02C00231599 /* AppDelegate.swift in Sources */,
 				42E640682147C02C00231599 /* BarGraphDemo.xcdatamodeld in Sources */,
@@ -434,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMUY72KH99;
 				INFOPLIST_FILE = BarGraphDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMUY72KH99;
 				INFOPLIST_FILE = BarGraphDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
